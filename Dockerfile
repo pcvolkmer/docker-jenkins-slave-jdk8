@@ -6,10 +6,10 @@ MAINTAINER Paul-Christian Volkmer <mail@pcvolkmer.de>
 RUN apt-get update && apt-get -y upgrade
 
 # Install Git and OpenSSH
-apt-get install -y git openssh-server && mkdir /var/run/sshd
+RUN apt-get install -y git openssh-server && mkdir /var/run/sshd
 
 # Add user "jenkins" with password "jenkins"
-adduser --quiet jenkins && echo "jenkins:jenkins" | chpasswd
+RUN adduser --quiet jenkins && echo "jenkins:jenkins" | chpasswd
 
 EXPOSE 22
 
