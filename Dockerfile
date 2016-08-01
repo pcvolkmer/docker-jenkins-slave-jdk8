@@ -1,6 +1,6 @@
 # This Dockerfile is used to build an image containing an OpenJDK 8 jenkins slave
 
-FROM java:8u72-jdk
+FROM java:8u91-jdk
 MAINTAINER Paul-Christian Volkmer <mail@pcvolkmer.de>
 
 # Install packages
