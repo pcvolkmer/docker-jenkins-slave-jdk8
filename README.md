@@ -1,3 +1,5 @@
+[![](https://images.microbadger.com/badges/image/pcvolkmer/jenkins-slave-jdk8.svg)](http://microbadger.com/images/pcvolkmer/jenkins-slave-jdk8 "Get your own image badge on microbadger.com")
+
 # Introduction
 
 Dockerfile to build a [Jenkins](https://jenkins-ci.org)-slave container image to be used with [Jenkins Docker Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin)
