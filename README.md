@@ -14,5 +14,5 @@ There is no need to start this image by your self. If you want to do so, use:
 
 # Packages installed
 
-Based on official [OpenJDK 8 Docker image](https://registry.hub.docker.com/_/java/), this image contains Git and OpenSSH packages
+Based on official [OpenJDK 8 Docker image](https://registry.hub.docker.com/_/openjdk/), this image contains Git and OpenSSH packages
 and a user named "jenkins" with password "jenkins".
